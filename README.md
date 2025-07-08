@@ -1,4 +1,4 @@
-# Profile Chat
+# Agentic Personal Bot
 
 A Gradio-based AI profile chat app that answers questions about Hema Surya B using OpenAI, PDF, and summary context.
 
@@ -46,7 +46,7 @@ This project is an interactive chatbot that represents Hema Surya B, answering q
 - `Profile.pdf`: Full LinkedIn profile (used for context)
 
 ## License
-This project is for personal/professional portfolio use. Contact Hema Surya B for more information. 
+This project is for personal/professional portfolio use. Contact hemasurya469@gmail.com for more information. 
 
 ## Mobile Notifications via Pushover
 
