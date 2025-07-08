@@ -31,7 +31,7 @@ This project is an interactive chatbot that represents Hema Surya B, answering q
    ```env
    PUSHOVER_TOKEN=your_pushover_token
    PUSHOVER_USER=your_pushover_user
-   GEMINI_API_KEY=your_openai_api_key
+   GEMINI_API_KEY=your_gemini_api_key
    ```
 4. **Run the app:**
    ```bash
