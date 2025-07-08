@@ -1,0 +1,5 @@
+About
+
+I currently contribute as an AI/ML Developer at Finari Services, where I support the development of intelligent solutions by leveraging my expertise in AWS, chatbot development, and programming. In parallel, I serve as the Treasurer of the Bionary Club at VIT Chennai and as a Web Developer for the CodeChef VIT-Chennai Chapter, roles that enhance my leadership abilities and deepen my web development skills.
+
+I am pursuing a B.Tech in Computer Science at VIT Chennai and a BS in Data Science at IIT Madras, combining academic rigor with hands-on experience in AI, machine learning, and modern web technologies. I hold certifications in HTML, CSS, Arduino, and GIS applications, equipping me to contribute to technology-driven initiatives with both precision and creativity.
