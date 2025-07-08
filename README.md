@@ -47,3 +47,22 @@ This project is an interactive chatbot that represents Hema Surya B, answering q
 
 ## License
 This project is for personal/professional portfolio use. Contact Hema Surya B for more information. 
+
+## Mobile Notifications via Pushover
+
+This app integrates with the Pushover mobile app to send real-time notifications to your device. Notifications are triggered for events such as:
+- When a user provides their email or expresses interest
+- When a user submits feedback or reports a bug
+- When a question cannot be answered by the chatbot
+
+### How to Set Up Pushover Notifications
+1. Download the Pushover app on your mobile device (available for iOS and Android).
+2. Create a Pushover account and obtain your **User Key**.
+3. Register an application on the Pushover dashboard to get your **API Token/Key**.
+4. Add these credentials to your `.env` file:
+   ```env
+   PUSHOVER_TOKEN=your_pushover_token
+   PUSHOVER_USER=your_pushover_user
+   ```
+
+With this setup, you will receive instant notifications on your mobile device whenever important events occur in the chat app. 
