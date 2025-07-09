@@ -1,6 +1,6 @@
 # Agentic Personal Bot
 
-A Gradio-based AI profile chat app that answers questions about Hema Surya B using OpenAI, PDF, and summary context.
+A Gradio-based AI profile chat app that answers questions about Hema Surya B using gemini, PDF, and summary context.
 
 ## About
 
