@@ -19,13 +19,28 @@ def push(text):
         }
     )
 
-
 def record_user_details(email, name="Name not provided", notes="not provided"):
     push(f"Recording {name} with email {email} and notes {notes}")
     return {"recorded": "ok"}
 
 def record_unknown_question(question):
     push(f"Recording {question}")
+    return {"recorded": "ok"}
+
+def record_user_feedback(feedback, rating=None):
+    msg = f"User feedback: {feedback}"
+    if rating is not None:
+        msg += f" (Rating: {rating})"
+    push(msg)
+    return {"recorded": "ok"}
+
+def record_bug_report(description, steps_to_reproduce=None, severity=None):
+    msg = f"Bug reported: {description}"
+    if steps_to_reproduce:
+        msg += f" | Steps: {steps_to_reproduce}"
+    if severity:
+        msg += f" | Severity: {severity}"
+    push(msg)
     return {"recorded": "ok"}
 
 record_user_details_json = {
